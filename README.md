@@ -33,57 +33,57 @@
 Посмотрите пример того, что вам нужно сделать: [Todo List](https://todont.zachmanson.com/)
 
 ### Readonly режим
-   1. Создайте модель `todo.model.tx` и компоненту `Todo.tsx` которая будет иметь **название** задачи, **состояние**  задачи (сделана или нет), а так же 2 кнопки: `Edit` и `Delete`.
+   1. Создайте модель `todo.model.ts` и компоненту `Todo.tsx` которая будет иметь **название** задачи, **состояние**  задачи (сделана или нет), а так же 2 кнопки: `Edit` и `Delete`.
    2. Создайте компоненту со списком и в ней отобразите несколько `<Todo/>`. Для этого используйте моковые данные:
    ```json
    [
       {
-         "id": 1,
+         "id": "51c1c4f1-03bf-48bf-9705-9dc97ab61a76",
          "title": "delectus aut autem",
          "completed": false
       },
       {
-         "id": 2,
+         "id": "62aabce1-8f84-4684-90b9-2b2310cf726a",
          "title": "quis ut nam facilis et officia qui",
          "completed": false
       },
       {
-         "id": 3,
+         "id": "402ee516-6c72-4d16-a9a8-322069f5cf6e",
          "title": "fugiat veniam minus",
          "completed": false
       },
       {
-         "id": 4,
+         "id": "3b720eaf-163a-41c8-bc5e-b47f2370cd0c",
          "title": "et porro tempora",
          "completed": true
       },
       {
-         "id": 5,
+         "id": "3ab57b63-e789-4211-a507-6b89501bc39a",
          "title": "laboriosam mollitia et enim quasi adipisci quia provident illum",
          "completed": false
       },
       {
-         "id": 6,
+         "id": "09d15f18-14ea-4fd3-b75b-e57777c25b3c",
          "title": "qui ullam ratione quibusdam voluptatem quia omnis",
          "completed": false
       },
       {
-         "id": 7,
+         "id": "46f5bdd5-dc22-441e-b78b-e812d817cfde",
          "title": "illo expedita consequatur quia in",
          "completed": false
       },
       {
-         "id": 8,
+         "id": "bce9f1e0-4383-40a6-9a10-2f59d9aa1465",
          "title": "quo adipisci enim quam ut ab",
          "completed": true
       },
       {
-         "id": 9,
+         "id": "05da3453-89e2-4d44-8912-5b727218808c",
          "title": "molestiae perspiciatis ipsa",
          "completed": false
       },
       {
-         "id": 10,
+         "id": "c7034df3-eb7b-4cad-a323-3f5c6ceb9283",
          "title": "illo est ratione doloremque quia maiores aut",
          "completed": true
       }
